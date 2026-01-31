@@ -18,7 +18,7 @@ Code and processed data used to generate figures for the manuscript titled “Sy
   - `Fig4a.py` can be run directly to generate panel A  
   - `Fig4b.py` requires topology file prefixes (without extensions) as command-line arguments, e.g.:
     ```
-    python3 Fig4b.py TS_1 TS_2 TS_3 TS_over_IRF6_1 TS_over_IRF6_2 TS_over_IRF6_3 TS_over_ELF3_1 TS_over_ELF3_2 TS_over_ELF3_3 TS_over_KLF4_1 TS_over_KLF4_2 TS_over_KLF4_3
+    python3 ./code/Fig4b.py TS_1 TS_2 TS_3 TS_over_IRF6_1 TS_over_IRF6_2 TS_over_IRF6_3 TS_over_ELF3_1 TS_over_ELF3_2 TS_over_ELF3_3 TS_over_KLF4_1 TS_over_KLF4_2 TS_over_KLF4_3
     ```
   - `Fig4c_d.py` generates panels C and D  
   - `Fig4e_f.py` generates panels E and F  
@@ -26,7 +26,7 @@ Code and processed data used to generate figures for the manuscript titled “Sy
   - `SuppFig4.py` generates all Supplementary Figure 4 panels using TSV/CSV files in `./data/`
 
 - `data/`  
-  Processed TSV/CSV files used for analysis and figure generation
+  Processed TSV/CSV files used for analysis and RACIPE simulation results.
 
 ## Data sources
 Public datasets including TCGA (via UCSC Xena), CCLE (DepMap), and GEO (NCBI).  
