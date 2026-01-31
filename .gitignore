@@ -1,0 +1,8 @@
+docs/
+data/*
+!data/RACIPE_practice
+!data/RACIPE_practice_randoms
+!data/pc1_loadings_all_networks.tsv
+!data/pc1_loadings_all_networks.csv
+!data/pc1_variances.tsv
+!data/team_strength_random_networks.tsv
