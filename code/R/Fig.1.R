@@ -122,7 +122,9 @@ Fig1a <- ggplot(correlation_matrix, aes(x = epi_correlation, y = mes_correlation
   geom_hline(yintercept = 0, color = "black", linewidth = 0.2, linetype = "dashed")
 
 Fig1a
+
 # Fig.1B ------------------------------------------------------------------
+
 library(pheatmap)
 ccle_data <- merged_data[, c(3, 5, 1)]
 ccle_data <- ccle_data %>%
@@ -207,6 +209,7 @@ Fig1b
 
 
 # Fig.1C -----------------------------------------------------------------
+
 
 # Define the function ELF3_vs_median
 ELF3_vs_median <- function(cancer_type, find_gene) {
