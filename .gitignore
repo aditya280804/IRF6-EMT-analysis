@@ -6,3 +6,5 @@ data/*
 !data/pc1_loadings_all_networks.csv
 !data/pc1_variances.tsv
 !data/team_strength_random_networks.tsv
+code/R/*
+!code/R/Fig.1.R
